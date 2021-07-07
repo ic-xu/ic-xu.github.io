@@ -3,13 +3,4 @@ layout: page
 title: 'Discovery'
 ---
 
-
-<div id="archives">
-
-    {% for post in site.categories['discovery'] %}
-    <article class="archive-item">
-        <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-    </article>
-    {% endfor %}
-
-</div>
+{% include categories.html category_posts=site.categories.discovery %}

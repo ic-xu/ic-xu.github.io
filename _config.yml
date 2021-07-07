@@ -17,10 +17,10 @@ navbar-links:
   Home: "/"
   Categories:
     - Discovery: "/discovery/"
-    - Learning:
-    - Practice: 
-    - Clean:
-    - Innovation: "aboutme"
+    - Learning: "/learning/"
+    - Practice: "/practice/"
+    - Clean: "/clean/"
+    - Evolution: "/evolution/"
   Index: "/tags/"
   About Me: "aboutme"
   Resources:

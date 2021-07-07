@@ -82,6 +82,16 @@
             {% if page.readtime %}
               {% include readtime.html %}
             {% endif %}
+
+            {% if page.categories.size > 0 %}
+            <div>
+                <span>Category:</span>
+                {% for category in page.categories %}
+                  <a href="/{{- category -}}">{{- category -}}</a>
+                {% endfor %}
+              </div>
+            {% endif %}
+
           {% endif %}
         </div>
       </div>

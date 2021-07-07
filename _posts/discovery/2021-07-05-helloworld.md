@@ -3,7 +3,7 @@ layout: post
 title: Hello World
 subtitle: Each post also has a subtitle
 tags: [test]
-categories: discovery
+categories: [discovery]
 comments: true
 ---
 
