@@ -14,8 +14,15 @@ author: Leo King
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  Home: "/"
+  Categories:
+    - Discovery: "/discovery/"
+    - Learning:
+    - Practice: 
+    - Clean:
+    - Innovation: "aboutme"
+  Index: "/tags/"
   About Me: "aboutme"
-  Articles Index: "/tags/"
   Resources:
     - Learn Jekyll: "https://jekyllrb.com/"
     - Learn markdown: "https://www.markdowntutorial.com/"
@@ -194,7 +201,7 @@ date_format: "%m-%-d, %Y"
 timezone: "China/Shanghai"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+permalink: /:categories/:year-:month-:day-:title/
 paginate: 5
 
 kramdown:
